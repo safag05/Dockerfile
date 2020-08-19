@@ -1,3 +1,4 @@
+#ubuntu image
 FROM ubuntu
 LABEL maintainer="Safa Gumuscibik (safagumus05@gmail.com)"
 RUN apt-get update && apt-get install -y nginx
